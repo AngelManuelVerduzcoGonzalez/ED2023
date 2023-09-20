@@ -1,0 +1,33 @@
+label {
+    display: block;
+}
+
+.buscar {
+    margin-top: 20px;
+}
+
+.detalle {
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+}
+
+.mensaje {
+    background-color: yellow;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.eliminar {
+     margin-top: 20px;
+}
+
+.modificar {
+    margin-top: 20px;
+}
+
+#btnCancelar, #btnAceptar {
+    display: none;
+}

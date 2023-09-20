@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ejercicio15.css">
+</head>
+<body>
+    <form action="">
+        <label for="codigo">Código</label>
+        <input type="text" id="codigo">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+
+        <label for="cantidad">Cantidad</label>
+        <input type="number" id="cantidad">
+
+        <label for="precio">Precio $</label>
+        <input type="number" id="precio">
+        <br>
+        <button type="button" id="btnAdd">Agregar producto</button>
+        <button type="reset" id="btnReset">Cancelar</button>
+        <button id="btnBuscar" type="button">Buscar</button>
+        <button id="btnEliminar" type="button">Eliminar</button>
+        <button type="button" id="btnListar">Listar</button>
+        <button type="button" id="btnListaInv">Lista Inversa</button>
+    </form>
+    <div class="modificar">
+        <label for="modificar">Modificar:</label>
+        <input type="number" id="modificar">
+        <button type="button" id="btnModificar">Modificar</button>
+        <button type="button" id="btnAceptar">Aceptar</button>
+        <button type="button" id="btnCancelar">Cancelar</button>
+    </div>
+    <div class="insertar">
+        <label for="insertar">Insertar:</label>
+        <input type="number" id="insertar">
+        <button type="button" id="btnInsertar">Insertar</button>
+    </div>
+    <h3>Detalles:</h3>
+    <div id="detalles">
+    </div>
+    <script src="./ejercicio15.js"></script>
+</body>
+</html>
